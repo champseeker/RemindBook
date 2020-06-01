@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         LogoLauncher logoLauncher = new LogoLauncher();
         logoLauncher.start();
+
+        Toast.makeText(MainActivity.this, "Keep app running in the background to receive updates regularly and on-time", Toast.LENGTH_LONG).show();
 
     }
 

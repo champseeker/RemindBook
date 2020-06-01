@@ -17,7 +17,6 @@ public class Note implements Serializable {
         this.date = date;
         this.importance = importance;
 
-
     }
 
     public String getName() {
